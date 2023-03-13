@@ -1,0 +1,18 @@
+Started GET "/" for 127.0.0.1 at 2023-03-13 12:27:21 +0300
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/austin/.rvm/gems/ruby-2.7.4/gems/railties-7.0.4.2/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/austin/.rvm/gems/ruby-2.7.4/gems/railties-7.0.4.2/lib/rails/templates/rails/welcome/index.html.erb (Duration: 2.1ms | Allocations: 767)
+Completed 200 OK in 27ms (Views: 6.5ms | ActiveRecord: 0.0ms | Allocations: 6598)
+
+
+Started GET "/" for 127.0.0.1 at 2023-03-13 12:30:57 +0300
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/austin/.rvm/gems/ruby-2.7.4/gems/railties-7.0.4.2/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/austin/.rvm/gems/ruby-2.7.4/gems/railties-7.0.4.2/lib/rails/templates/rails/welcome/index.html.erb (Duration: 2.4ms | Allocations: 449)
+Completed 200 OK in 10ms (Views: 6.4ms | ActiveRecord: 0.0ms | Allocations: 1147)
+
+
+Started GET "/First" for 127.0.0.1 at 2023-03-13 12:31:27 +0300
+  
+ActionController::RoutingError (No route matches [GET] "/First"):
+  

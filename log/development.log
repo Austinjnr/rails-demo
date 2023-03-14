@@ -143,3 +143,30 @@ Processing by CheeseController#index as HTML
 Completed 200 OK in 15ms (Views: 13.3ms | Allocations: 2254)
 
 
+Started GET "/" for 127.0.0.1 at 2023-03-14 10:01:05 +0300
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/austin/.rvm/gems/ruby-2.7.4/gems/railties-7.0.4.2/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/austin/.rvm/gems/ruby-2.7.4/gems/railties-7.0.4.2/lib/rails/templates/rails/welcome/index.html.erb (Duration: 3.0ms | Allocations: 660)
+Completed 200 OK in 29ms (Views: 8.4ms | ActiveRecord: 0.0ms | Allocations: 5306)
+
+
+Started GET "/cheese" for 127.0.0.1 at 2023-03-14 10:01:13 +0300
+Processing by CheeseController#index as HTML
+Completed 200 OK in 1ms (Views: 0.6ms | ActiveRecord: 0.0ms | Allocations: 148)
+
+
+Started GET "/cheese" for 127.0.0.1 at 2023-03-14 10:01:26 +0300
+Processing by CheeseController#index as HTML
+Completed 200 OK in 0ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 103)
+
+
+Started GET "/cheese" for 127.0.0.1 at 2023-03-14 10:02:44 +0300
+Processing by CheeseController#index as HTML
+Completed 200 OK in 1ms (Views: 1.0ms | ActiveRecord: 0.0ms | Allocations: 103)
+
+
+Started GET "/cheese" for 127.0.0.1 at 2023-03-14 10:02:50 +0300
+Processing by CheeseController#index as HTML
+Completed 200 OK in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 102)
+
+

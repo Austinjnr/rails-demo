@@ -222,3 +222,12 @@ Migrating to AddAgeToPets (20230315115314)
   [1m[36mTRANSACTION (3.8ms)[0m  [1m[36mcommit transaction[0m
   [1m[36mPet Load (0.2ms)[0m  [1m[34mSELECT "pets".* FROM "pets"[0m
   [1m[36mPet Load (0.2ms)[0m  [1m[34mSELECT "pets".* FROM "pets"[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mPet Create (0.4ms)[0m  [1m[32mINSERT INTO "pets" ("name", "breed", "created_at", "updated_at", "age") VALUES (?, ?, ?, ?, ?)[0m  [["name", "Chloe"], ["breed", "Oregon Rex"], ["created_at", "2023-03-15 12:36:57.076745"], ["updated_at", "2023-03-15 12:36:57.076745"], ["age", nil]]
+  [1m[36mTRANSACTION (6.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[36mPet Create (0.3ms)[0m  [1m[32mINSERT INTO "pets" ("name", "breed", "created_at", "updated_at", "age") VALUES (?, ?, ?, ?, ?)[0m  [["name", "Simba"], ["breed", "Korat"], ["created_at", "2023-03-15 12:37:09.510717"], ["updated_at", "2023-03-15 12:37:09.510717"], ["age", nil]]
+  [1m[36mTRANSACTION (6.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mPet Load (0.3ms)[0m  [1m[34mSELECT "pets".* FROM "pets"[0m
